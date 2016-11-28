@@ -17,7 +17,7 @@
 #else
   #include <stdint.h>     /* defines uint32_t etc */
 
-  typedef unsigned __int128 uint128_t;
+  typedef __uint128_t uint128_t;
 
   #define U128_LO(v) (v >> 64)
   #define U128_HI(v) (v & 0xFFFFFFFFFFFFFFFF)
