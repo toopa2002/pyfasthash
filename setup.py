@@ -25,7 +25,7 @@ for lib, files in libraries.items():
 
 macros = [
     ("BOOST_PYTHON_STATIC_LIB", None),
-    ("NO_FNV_GCC_OPTIMIZATION", True),
+    ("NO_FNV_GCC_OPTIMIZATION", None),
 ]
 include_dirs = []
 library_dirs = []
